@@ -13,6 +13,7 @@
 		6F7F61D41F3C1DDB00DBBFE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F61D21F3C1DDB00DBBFE9 /* Main.storyboard */; };
 		6F7F61D61F3C1DDB00DBBFE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F61D51F3C1DDB00DBBFE9 /* Assets.xcassets */; };
 		6F7F61D91F3C1DDB00DBBFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F61D71F3C1DDB00DBBFE9 /* LaunchScreen.storyboard */; };
+		6F7F61E31F3C1E1F00DBBFE9 /* CZDateUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F61E21F3C1E1F00DBBFE9 /* CZDateUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6F7F61D51F3C1DDB00DBBFE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F7F61D81F3C1DDB00DBBFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F7F61DA1F3C1DDB00DBBFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F7F61E11F3C1E1F00DBBFE9 /* CZDateUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZDateUtility.h; sourceTree = "<group>"; };
+		6F7F61E21F3C1E1F00DBBFE9 /* CZDateUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZDateUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				6F7F61C81F3C1DDB00DBBFE9 /* CZDateUtilityDemo */,
+				6F7F61E01F3C1E1F00DBBFE9 /* CZDateUtility */,
 				6F7F61C71F3C1DDB00DBBFE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +81,15 @@
 				6F7F61CA1F3C1DDB00DBBFE9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F7F61E01F3C1E1F00DBBFE9 /* CZDateUtility */ = {
+			isa = PBXGroup;
+			children = (
+				6F7F61E11F3C1E1F00DBBFE9 /* CZDateUtility.h */,
+				6F7F61E21F3C1E1F00DBBFE9 /* CZDateUtility.m */,
+			);
+			path = CZDateUtility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F7F61D11F3C1DDB00DBBFE9 /* ViewController.m in Sources */,
+				6F7F61E31F3C1E1F00DBBFE9 /* CZDateUtility.m in Sources */,
 				6F7F61CE1F3C1DDB00DBBFE9 /* AppDelegate.m in Sources */,
 				6F7F61CB1F3C1DDB00DBBFE9 /* main.m in Sources */,
 			);
